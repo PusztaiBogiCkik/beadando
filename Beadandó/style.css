@@ -1,0 +1,27 @@
+html {
+    
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+#GTA5 {
+    background-image: url(GTA5.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#RedDead {
+    background-image: url(red\ dead.jfif);
+
+}
+
+#Assassin {
+    background-image: url(creed.jfif);
+}
