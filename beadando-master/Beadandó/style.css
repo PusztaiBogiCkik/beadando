@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* Általános */
+
+.container {
+    margin-top: 2%;
+	padding: 15px;
+}
+ 
+/* Főoldal */
+
+/* PAYDAY 3 */
+
+.pdimg {
+  width: 500px;
+  height: auto;
+}
+
+.pd3 {
+    background-image: url(kepek/pd3_bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* DOOM: The Dark Ages */
+
+.doom {
+    background-image: url(kepek/doom_keyart.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Grand Theft Auto 5 */
+
+#GTA5 {
+    background-image: url(GTA5.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Red Dead Redemption II */
+
+#RedDead {
+    background-image: url(red\ dead.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Assassin's Creed: Odyssey */
+
+#Assassin {
+    background-image: url(creed.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
