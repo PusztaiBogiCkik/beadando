@@ -10,6 +10,17 @@ h2 {
 
 }
 
+#fo {
+
+}
+
+.pd3 {
+    background-image: url(kepek/pd3_bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 #GTA5 {
     background-image: url(GTA5.jfif);
     background-repeat: no-repeat;
@@ -19,9 +30,14 @@ h2 {
 
 #RedDead {
     background-image: url(red\ dead.jfif);
-
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #Assassin {
     background-image: url(creed.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
