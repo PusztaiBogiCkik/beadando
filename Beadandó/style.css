@@ -5,6 +5,7 @@
 .container {
     margin-top: 2%;
 	padding: 15px;
+
 }
  
 /* Főoldal */
@@ -21,7 +22,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: black;
+    color: white;
     
 }
 
@@ -41,7 +42,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: black;
+    color: white;
 }
 
 /* Red Dead Redemption II */
@@ -51,7 +52,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: black;
+    color: white;
 }
 
 /* Assassin's Creed: Odyssey */
@@ -60,8 +61,10 @@
     background-image: url(creed.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    color: black;
+    background-size: auto;
+    color: white;
+
+
 }
 
 h2 {
@@ -70,4 +73,12 @@ h2 {
 
 h3 {
     font-weight: bold;
+}
+
+.fo {
+    background-image: url(kepek/kezdolaphatter.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
