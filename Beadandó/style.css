@@ -21,6 +21,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: black;
+    
 }
 
 /* DOOM: The Dark Ages */
@@ -35,26 +37,37 @@
 /* Grand Theft Auto 5 */
 
 #GTA5 {
-    background-image: url(GTA5.jfif);
+    background-image: url(GTA5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: black;
 }
 
 /* Red Dead Redemption II */
 
 #RedDead {
-    background-image: url(red\ dead.jfif);
+    background-image: url(red\ dead.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: black;
 }
 
 /* Assassin's Creed: Odyssey */
 
 #Assassin {
-    background-image: url(creed.jfif);
+    background-image: url(creed.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: black;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
 }
