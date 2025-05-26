@@ -1,26 +1,84 @@
-html {
-    
-}
+@charset "utf-8";
 
-h1 {
-
-}
+/* Általános */
 
 h2 {
-
+    font-weight: bold;
 }
 
-#fo {
+h3 {
+    font-weight: bold;
+}
 
+.container {
+    margin-top: 2%;
+	padding: 15px;
+
+}
+ 
+/* Főoldal */
+
+.fo {
+    background-image: url(kepek/kezdolaphatter.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+/* PAYDAY 3 */
+
+.pd3header {
+    background-image: url(kepek/pd3-main-keyart-guns-original.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 850px
+}
+
+.pd3vonal {
+    border: none;
+    border-top: 3px solid #ff7a15;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pd3logo {
+    height: 80px;
+    width: auto;
+}
+
+.pdimg {
+  width: 500px;
+  height: auto;
 }
 
 .pd3 {
-    background-image: url(kepek/pd3_bg.webp);
+    background-color: #000;
+    background-size: cover;
+    color: white;
+
+}
+
+/* DOOM: The Dark Ages */
+
+.doom {
+    background-image: url(kepek/doom_keyart.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: black;
     
+}
+
+/* Grand Theft Auto 5 */
+
+.GTA5header{
+    background-image: url(kepek/gtaheader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 850px;
 }
 
 #GTA5 {
@@ -31,6 +89,8 @@ h2 {
     color: black;
 }
 
+/* Red Dead Redemption II */
+
 #RedDead {
     background-image: url(red\ dead.jpg);
     background-repeat: no-repeat;
@@ -38,6 +98,8 @@ h2 {
     background-size: cover;
     color: black;
 }
+
+/* Assassin's Creed: Odyssey */
 
 #Assassin {
     background-image: url(creed.jpg);
@@ -53,4 +115,7 @@ h2 {
 
 h3 {
     font-weight: bold;
+}
+    background-size: auto;
+    color: black;
 }
