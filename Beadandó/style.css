@@ -28,12 +28,19 @@ h3 {
 
 /* PAYDAY 3 */
 
-.pd3headerimg {
-    background-image: url(kepek/pd3-gold-keyart-original.jpg);
+.pd3header {
+    background-image: url(kepek/pd3-main-keyart-guns-original.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 570px
+    height: 850px
+}
+
+.pd3vonal {
+    border: none;
+    border-top: 3px solid #ff7a15;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .pd3logo {
@@ -41,18 +48,13 @@ h3 {
     width: auto;
 }
 
-.pdimgbal {
-  width: 500px;
-  height: auto;
-}
-
-.pdimgjobb {
+.pdimg {
   width: 500px;
   height: auto;
 }
 
 .pd3 {
-    background-color: #1C1C1C;
+    background-color: #000;
     background-size: cover;
     color: white;
 
