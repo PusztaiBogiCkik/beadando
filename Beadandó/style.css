@@ -15,6 +15,14 @@ h3 {
 	padding: 15px;
 
 }
+
+.navbar {
+  background-color: #131d16 !important;
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white !important;
+}
  
 /* Főoldal */
 
@@ -27,6 +35,11 @@ h3 {
 }
 
 /* PAYDAY 3 */
+
+.pd3marginok {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
 .pd3header {
     background-image: url(kepek/pd3-main-keyart-guns-original.jpg);
@@ -44,8 +57,36 @@ h3 {
 }
 
 .pd3logo {
-    height: 80px;
+    height: 100px;
     width: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.pd3osszefoglalo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.pd3osszefoglaloszov {
+  flex: 1 1 55%;
+}
+
+.pd3steam {
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pd3steam img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-top: 75px;
 }
 
 .pdimg {
@@ -53,12 +94,66 @@ h3 {
   height: auto;
 }
 
+
 .pd3 {
-    background-color: #000;
+    background-color: black;
     background-size: cover;
     color: white;
 
 }
+
+.accordion-button,
+.accordion-body {
+  background-color: #11271a;
+  color: white;
+}
+
+.accordion-body {
+  text-align: left;
+}
+
+.accordion-body img {
+  float: right;
+  max-width: 45%;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.accordion-body audio {
+  display: block;
+  float: right;
+  clear: both;
+  margin-top: 10px;
+}
+
+.nagykep {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+.pdgangkepcontainer {
+  position: relative;
+  width: 100%;
+}
+.pd3szovegtetejen {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+  max-width: 40%;
+}
+
+.pdelozetesek {
+  width: 32%;
+  height: auto;
+  margin-right: 1%;
+  margin-top: 10px;
+}
+
 
 /* DOOM: The Dark Ages */
 
@@ -115,7 +210,8 @@ h2 {
 
 h3 {
     font-weight: bold;
-}
     background-size: auto;
     color: black;
 }
+
+
