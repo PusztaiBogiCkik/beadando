@@ -3,21 +3,20 @@
 /* Általános */
 
 h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 h3 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .container {
-    margin-top: 2%;
+  margin-top: 2%;
 	padding: 15px;
-
 }
 
 .navbar {
-  background-color: #131d16 !important;
+  background-color: rgb(24, 24, 24) !important;
 }
 .navbar .nav-link,
 .navbar .navbar-brand {
@@ -27,41 +26,41 @@ h3 {
 /* Főoldal */
 
 .fo {
-    background-image: url(kepek/kezdolaphatter.avif);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
+  background-image: url(kepek/kezdolaphatter.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
 }
 
 /* PAYDAY 3 */
 
 .pd3marginok {
-    margin-top: 25px;
-    margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .pd3header {
-    background-image: url(kepek/pd3-main-keyart-guns-original.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 850px
+  background-image: url(kepek/pd3-main-keyart-guns-original.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px
 }
 
 .pd3vonal {
-    border: none;
-    border-top: 3px solid #ff7a15;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  border: none;
+  border-top: 3px solid #ff7a15;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .pd3logo {
-    height: 100px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-    margin-top: 50px;
+  height: 100px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .pd3osszefoglalo {
@@ -96,23 +95,20 @@ h3 {
 
 
 .pd3 {
-    background-color: black;
-    background-size: cover;
-    color: white;
+  background-color: black;
+  background-size: cover;
+  color: white;
 
 }
 
-.accordion-button,
-.accordion-body {
+.pd3 .accordion-button,
+.pd3 .accordion-collapse
+.pd3 .accordion-body {
   background-color: #11271a;
   color: white;
 }
 
-.accordion-body {
-  text-align: left;
-}
-
-.accordion-body img {
+.pd3 .accordion-body img {
   float: right;
   max-width: 45%;
   height: auto;
@@ -120,14 +116,14 @@ h3 {
   margin-bottom: 10px;
 }
 
-.accordion-body audio {
+.pd3 .accordion-body audio {
   display: block;
   float: right;
   clear: both;
   margin-top: 10px;
 }
 
-.nagykep {
+.pd3nagykep {
   width: 100vw;
   height: auto;
   display: block;
@@ -137,6 +133,7 @@ h3 {
   position: relative;
   width: 100%;
 }
+
 .pd3szovegtetejen {
   position: absolute;
   top: 10%;
@@ -147,24 +144,154 @@ h3 {
   max-width: 40%;
 }
 
+.videoktextpd3 {
+  color: white;
+  text-align: center;
+  margin-right: 1%;
+}
+
 .pdelozetesek {
-  width: 32%;
+  width: 100%;
   height: auto;
   margin-right: 1%;
+  margin-left: 1%;
   margin-top: 10px;
 }
 
-
 /* DOOM: The Dark Ages */
 
+.doommarginok {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.doomheader {
+  background-image: url(kepek/doomsteamkeyart.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 750px
+}
+
+.doomvonal {
+  border: none;
+  border-top: 3px solid #f70707;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.doomlogo {
+  height: 160px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.doomosszefoglalo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.doomosszefoglaloszov {
+  flex: 1 1 55%;
+}
+
+.doomsteam {
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.doomsteam img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-top: 75px;
+}
+
+.doomimg {
+  width: 500px;
+  height: auto;
+}
+
+
 .doom {
-    background-image: url(kepek/doom_keyart.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-color: black;
+  background-size: cover;
+  color: white;
+
+}
+
+.doom .accordion-button,
+.doom .accordion-collapse
+.doom .accordion-body {
+  background-color: #361b12;
+  color: white;
+}
+
+.doom .accordion-body img {
+  float: right;
+  max-width: 45%;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.doom .accordion-body audio {
+  display: block;
+  float: right;
+  clear: both;
+  margin-top: 10px;
+}
+
+.doomnagykep {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+.doomkepcontainer {
+  position: relative;
+  width: 100%;
+}
+
+.doomszovegtetejen {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+  max-width: 40%;
+}
+
+.doomvideoktext {
+  color: white;
+  text-align: center;
+  margin-right: 1%;
+}
+
+.doomelozetesek {
+  width: 100%;
+  height: auto;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 10px;
 }
 
 /* Grand Theft Auto 5 */
+
+.GTA5header{
+    background-image: url(kepek/gtaheader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 850px;
+}
 
 #GTA5 {
     background-image: url(GTA5.jpg);
@@ -190,6 +317,16 @@ h3 {
     background-image: url(creed.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
     background-size: auto;
     color: black;
 }
