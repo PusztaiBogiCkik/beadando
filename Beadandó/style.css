@@ -26,11 +26,40 @@ h3 {
 /* Főoldal */
 
 .fo {
-  background-image: url(kepek/kezdolaphatter.avif);
+  position: relative;
+  z-index: 0;
+}
+
+.fo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(kepek/kezdolap_hatter.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  color: white;
+  background-position: center;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+.foszoveg {
+  position: relative;
+  z-index: 1;
+  color: black;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 5px 5px 15px black;
+	margin-top: 2%;
+	padding: 25px;
+}
+
+.fofooter {
+  color: black;
 }
 
 /* PAYDAY 3 */
@@ -629,7 +658,7 @@ h3 {
   display: block;
 }
 
-.pdgangkepcontainer {
+.ACkepcontainer {
   position: relative;
   width: 100%;
 }
