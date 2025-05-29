@@ -51,15 +51,85 @@ h3 {
   color: black;
 }
 
-.container {
+.containerbg {
   background-color: rgba(255, 255, 255, 0.7);
 	box-shadow: 5px 5px 15px black;
-	margin-top: 2%;
 	padding: 25px;
 }
 
-.fofooter {
+.fooldkep {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+}
+
+.fooldtextkep{
+ text-align: center;
+}
+
+/* DLC-k */
+
+.dlc {
+  position: relative;
+  z-index: 0;
+}
+
+.dlc::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(kepek/kezdolap_hatter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+.dlcszoveg {
+  position: relative;
+  z-index: 1;
   color: black;
+}
+
+.containerbg {
+  background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 5px 5px 15px black;
+	padding: 25px;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: start;
+  margin: 30px auto;
+}
+
+.tableclass {
+  width: 90%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  color: #000000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.tableclass th,
+.tableclass td {
+  padding: 15px;
+  border: 1px solid #343a40;
+  text-align: center;
+}
+
+.tableclass thead {
+  background-color: #343a40;
+  font-size: 18px;
+  border-bottom: 2px solid #495057;
 }
 
 /* PAYDAY 3 */
@@ -320,7 +390,7 @@ h3 {
 }
 
 .GTA5header {
-  background-image: url(kepek/pd3-main-keyart-guns-original.jpg);
+  background-image: url(kepek/gta_header.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -329,13 +399,13 @@ h3 {
 
 .GTA5vonal {
   border: none;
-  border-top: 3px solid #ff7a15;
+  border-top: 3px solid #1525ff;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .GTA5logo {
-  height: 100px;
+  height: 200px;
   width: auto;
   display: block;
   margin: 0 auto;
@@ -367,24 +437,24 @@ h3 {
   margin-top: 75px;
 }
 
-.GTAimg {
+.GTA5img {
   width: 500px;
   height: auto;
 }
 
 
 .GTA5 {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   background-size: cover;
-  color: white;
+  color: rgb(255, 255, 255);
 
 }
 
 .GTA5 .accordion-button,
 .GTA5 .accordion-collapse
 .GTA5 .accordion-body {
-  background-color: #11271a;
-  color: white;
+  background-color: #7cb9b1;
+  color: rgb(0, 0, 0);
 }
 
 .GTA5 .accordion-body img {
@@ -408,7 +478,7 @@ h3 {
   display: block;
 }
 
-.GTAgangkepcontainer {
+.GTA5kepcontainer {
   position: relative;
   width: 100%;
 }
@@ -416,25 +486,11 @@ h3 {
 .GTA5szovegtetejen {
   position: absolute;
   top: 10%;
-  left: 5%;
+  right: 5%;
   color: white;
   background-color: rgba(0,0,0,0.5);
   padding: 20px;
   max-width: 40%;
-}
-
-.videoktextGTA5 {
-  color: white;
-  text-align: center;
-  margin-right: 1%;
-}
-
-.GTAelozetesek {
-  width: 100%;
-  height: auto;
-  margin-right: 1%;
-  margin-left: 1%;
-  margin-top: 10px;
 }
 
 /* Red Dead Redemption II */
@@ -445,7 +501,7 @@ h3 {
 }
 
 .RDR2header {
-  background-image: url(kepek/pd3-main-keyart-guns-original.jpg);
+  background-image: url(kepek/rdr_header.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -454,13 +510,13 @@ h3 {
 
 .RDR2vonal {
   border: none;
-  border-top: 3px solid #ff7a15;
+  border-top: 3px solid #f80000;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .RDR2logo {
-  height: 100px;
+  height: 150px;
   width: auto;
   display: block;
   margin: 0 auto;
@@ -508,7 +564,7 @@ h3 {
 .RDR2 .accordion-button,
 .RDR2 .accordion-collapse
 .RDR2 .accordion-body {
-  background-color: #11271a;
+  background-color: #800808;
   color: white;
 }
 
@@ -533,7 +589,7 @@ h3 {
   display: block;
 }
 
-.RDR2gangkepcontainer {
+.RDR2kepcontainer {
   position: relative;
   width: 100%;
 }
@@ -570,7 +626,7 @@ h3 {
 }
 
 .ACheader {
-  background-image: url(kepek/pd3-main-keyart-guns-original.jpg);
+  background-image: url(kepek/ac_header.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -579,13 +635,13 @@ h3 {
 
 .ACvonal {
   border: none;
-  border-top: 3px solid #ff7a15;
+  border-top: 3px solid #00f7ff;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .AClogo {
-  height: 100px;
+  height: 150px;
   width: auto;
   display: block;
   margin: 0 auto;
@@ -623,21 +679,21 @@ h3 {
 }
 
 
-.AC {
+.Assassin {
   background-color: black;
   background-size: cover;
   color: white;
 
 }
 
-.AC .accordion-button,
-.AC .accordion-collapse
-.AC .accordion-body {
-  background-color: #11271a;
-  color: white;
+.Assassin .accordion-button,
+.Assassin .accordion-collapse
+.Assassin .accordion-body {
+  background-color: #84bcca;
+  color: rgb(0, 0, 0);
 }
 
-.AC .accordion-body img {
+.Assassin .accordion-body img {
   float: right;
   max-width: 45%;
   height: auto;
@@ -645,7 +701,7 @@ h3 {
   margin-bottom: 10px;
 }
 
-.AC .accordion-body audio {
+.Assassin .accordion-body audio {
   display: block;
   float: right;
   clear: both;
@@ -666,25 +722,11 @@ h3 {
 .ACszovegtetejen {
   position: absolute;
   top: 10%;
-  left: 5%;
+  right: 5%;
   color: white;
   background-color: rgba(0,0,0,0.5);
   padding: 20px;
   max-width: 40%;
-}
-
-.videoktextAC {
-  color: white;
-  text-align: center;
-  margin-right: 1%;
-}
-
-.ACelozetesek {
-  width: 100%;
-  height: auto;
-  margin-right: 1%;
-  margin-left: 1%;
-  margin-top: 10px;
 }
 
 h2 {
