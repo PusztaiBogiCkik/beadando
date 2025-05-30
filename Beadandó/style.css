@@ -74,6 +74,8 @@ h3 {
 .dlc {
   position: relative;
   z-index: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 5px 5px 15px black;
 }
 
 .dlc::before {
@@ -98,9 +100,7 @@ h3 {
 }
 
 .containerbg {
-  background-color: rgba(255, 255, 255, 0.7);
-	box-shadow: 5px 5px 15px black;
-	padding: 25px;
+  padding: 25px;
 }
 
 .table-wrapper {
@@ -130,6 +130,10 @@ h3 {
   background-color: #343a40;
   font-size: 18px;
   border-bottom: 2px solid #495057;
+}
+
+.dlcfeherszovegek {
+  color: white;
 }
 
 /* PAYDAY 3 */
@@ -420,7 +424,7 @@ h3 {
   flex-wrap: wrap;
 }
 
-.GTA5osszefoglaloszov {
+#GTA5osszefoglaloszov {
   flex: 1 1 55%;
 }
 
@@ -738,5 +742,8 @@ h3 {
     background-size: auto;
     color: black;
 }
+
+
+
 
 
